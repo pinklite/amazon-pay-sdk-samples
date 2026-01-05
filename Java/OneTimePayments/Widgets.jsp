@@ -99,7 +99,7 @@
 
         <script>
             window.onAmazonLoginReady = function() {
-                amazon.Login.setClientId('amzn1.application-oa2-client.9f8c1453b8214b579597159358aa51ac');
+                amazon.Login.setClientId('ENTER_YOUR_CLIENT_ID');
             };
 
             document.getElementById("consent_token").value = decodeURI(window.location.search.match(new RegExp('(?:[\?\&]access_token=)([^&]+)'))[1]);
